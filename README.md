@@ -2,9 +2,13 @@
 
 A Tool written in python to help de-obfuscate the $GLOBALS type malware. 
 
-Also known as hexedglobals.3793 | Kidslug | php.obfuscated! | php.malware.GLOBALS.003 | php.malware.GLOBALS.004
+The first part of the script will take the alphabet and will match it to the relevant number within the code.
+Thanks to @iamrasting for his help on this part.
+The remainder of the code will deobfuscate a file entered and produce the file output.txt after it has deobfuscated and removed strings not required.
 
-Alphabet soup - deobfuscates all of the code.
+Will work on malware: hexedglobals.3793 | Kidslug | php.obfuscated! | php.malware.GLOBALS.003 | php.malware.GLOBALS.004
+
+
 
 ## Instructions:
 
@@ -18,10 +22,6 @@ it will look something like this
 
 Where hex is not formed correctly ie \xd please add a starting 0, otherwise the code will fail.
 
-The first part of the script will take the alphabet and will match it to the relevant number within the code.
-
-Thanks to @iamrasting for his help on this part.
-
 4. Enter the name of the webshell file in the 
 
 ```python
@@ -30,7 +30,7 @@ with open('globals.php') as infile:
 ```
 5. Run the script 
 6. Open output.txt for your deobfuscated code. 
-This will take the file, run through the functions and deobfuscate the code to produce a new file called output.txt. 
+
 
 Enjoy
 @5w0rdfish 
