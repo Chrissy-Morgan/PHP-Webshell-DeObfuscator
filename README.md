@@ -1,14 +1,14 @@
 # PHP-Webshell-DeObfuscator
 
-A Tool written in python to help de-obfuscate the $GLOBALS type malware. 
-
-The first part of the script will take the alphabet and will match it to the relevant number within the code.
-Thanks to @iamrasting for his help on this part.
-The remainder of the code will deobfuscate a file entered and produce the file output.txt after it has deobfuscated and removed strings not required.
+A Tool written in Python to help de-obfuscate the $GLOBALS type malware. 
 
 Will work on malware: hexedglobals.3793 | Kidslug | php.obfuscated! | php.malware.GLOBALS.003 | php.malware.GLOBALS.004
 
 
+# How does it work
+The first part of the script will take the alphabet and will match it to the relevant number within the code.
+Thanks to @iamrasting for his help on this part.
+The remainder of the code will deobfuscate a file entered and produce the file output.txt after it has been processed.
 
 ## Instructions:
 
