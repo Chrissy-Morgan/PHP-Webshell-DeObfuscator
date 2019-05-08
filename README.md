@@ -22,6 +22,14 @@ it will look something like this
 
 Where hex is not formed correctly ie \xd please add a starting 0, otherwise the code will fail.
 
+Prior to using the tool, you must convert all the variable names which is set to the Array so for example find 
+$GLOBALS['l0dde52'] = Array();
+
+In this instance $10dde52 = $GLOBALS; so go through the code, find and replace all instances with $GLOBALS and then run the code with your file.
+ you will then end up with a file looking a bit like this:
+```php
+$tf7ebf[$GLOBALS['l94b537e'][81].$GLOBALS['l94b537e'][96].$GLOBALS['l94b537e'][62].$GLOBALS['l94b537e'][62].$GLOBALS['l94b537e'][20].$GLOBALS['l94b537e'][12]]=$GLOBALS['l94b537e'][20].$GLOBALS['l94b537e']
+```
 4. Enter the name of the webshell file in the 
 
 ```python
