@@ -40,5 +40,11 @@ with open('globals.php') as infile:
 6. Open output.txt for your deobfuscated code. 
 
 
+
+I have experimental code where I have converted some further values in hex to python. https://repl.it/repls/LikablePoliticalRuntimes
+It is currently in devlopment, but you can insert the file in and hex alphabet and it will print out the file
+- Not great formatting currently. This is a step closer to complete automation.
+
+
 Enjoy
 @5w0rdfish 
