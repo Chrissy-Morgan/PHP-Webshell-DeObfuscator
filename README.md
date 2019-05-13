@@ -24,7 +24,7 @@ Where hex is not formed correctly ie \xd please add a starting 0, otherwise the 
 
 TIP - IF YOU WANT NICE LOOKING CODE ON OUTPUT - STICK CODE PRIOR TO PROCESSING THROUGH A PHP FORMATTER
 
-4. Enter the name of the webshell file in the 
+4. Enter the name of the webshell file:
 
 ```python
 with open('globals.php') as infile:
